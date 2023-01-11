@@ -164,18 +164,15 @@ charChoose();
 //Function to divide the password length into as equal parts as possible and replace Boolean array with those numbers where true(1)
 
 function getParts() {
-  console.log(ans.passwordlength);
+  console.log("Password length: ",ans.passwordlength);
   equalParts = Math.floor(ans.passwordlength/ans.items),
-  console.log("Equal parts: ",equalParts);
+  console.log("Lowest common divider: ",equalParts);
   let equalPartsArray = [];
   for (let i=0; i<ans.items;i++) {
     equalPartsArray.push(equalParts);
   }
-  console.log("equalPartsArray: ",equalPartsArray);
   totalEqualParts = equalPartsArray.reduce((a,b) => a+b);
-  console.log("Sum of totalEqualParts: ",totalEqualParts);
   var reminder = ans.passwordlength-totalEqualParts;
-  console.log("Reminder: ",reminder);
 
   let partsArray = equalPartsArray;
   if (reminder>0) {
@@ -183,7 +180,6 @@ function getParts() {
     equalPartsArray.push(a);
     partsArray = equalPartsArray.slice(1,(equalPartsArray.length));
   }
-  console.log("Get the following number of random elements from each chosen array: ", partsArray);
 
   arr=[0];
 
@@ -220,7 +216,7 @@ function getRandom(arr) {
       }
     }
   }
-
+  console.log("Unshuffled elements: ",letters);
   //very elegant shuffle method from dev.to using arrow function
   return shuffledLetters = letters.sort((a, b) => 0.5 - Math.random());
   
@@ -233,7 +229,6 @@ function generatePassword() {
   getPasswordOptions();
   getParts();
   let passwordArray = getRandom(arr);
-  console.log(passwordArray.join(''));
   return passwordArray.join('');
 }
 
