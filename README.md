@@ -17,7 +17,7 @@ On clicking the button, website will ask for the following information, in form 
 *You can follow the steps in the console!*
 
 ## Screenshot
-![screenshot of the password generator website] (https://raw.githubusercontent.com/Nulula/password-generator/main/assets/screenshot.png)
+![screenshot of the password generator website](https://raw.githubusercontent.com/Nulula/password-generator/main/assets/screenshot.png)
 
 ## Credits
 An excellent way of getting a random number was found on MDN website.
