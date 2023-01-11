@@ -17,7 +17,7 @@ On clicking the button, website will ask for the following information, in form 
 *You can follow the steps in the console!*
 
 ## Screenshot
-![screenshot of the bootstrap portfolio website] (.\assets\screenshot.png "screenshot of password generator webpage" )
+![screenshot of the bootstrap portfolio website] (https://raw.githubusercontent.com/Nulula/password-generator/main/assets/screenshot.png "screenshot of password generator webpage" )
 
 ## Credits
 An excellent way of getting a random number was found on MDN website.
