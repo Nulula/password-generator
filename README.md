@@ -17,7 +17,7 @@ On clicking the button, website will ask for the following information, in form 
 *You can follow the steps in the console!*
 
 ## Screenshot
-![screenshot of the password generator website] (/assets/screenshot.png?raw=true)
+![screenshot of the password generator website] (assets/screenshot.png?raw=true)
 
 ## Credits
 An excellent way of getting a random number was found on MDN website.
